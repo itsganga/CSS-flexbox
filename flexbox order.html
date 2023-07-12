@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+<title>CSS flexbox order</title>
+<style>
+body{
+     font-size: 16px;
+	 font-family: arial;
+}
+.container{
+            background: #eee;
+			height: 150px;
+			margin: 50px auto 0;
+			padding: 10px;
+			border: 2px solid black;
+			display: flex;
+}
+.item1{
+     background: orangered;
+	 order: 1;
+}
+.item2{
+     background: lightpink;
+	 order: -1;
+}
+.item3{
+     background: royalblue;
+}
+.item4{
+     background: goldenrod;
+	 order: 2;
+}
+.item5{
+     background: mediumpurple;
+	 order: -2;
+}
+.item{
+        color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		padding: 10px;
+}
+</style>
+</head>
+<body>
+<h1>CSS flexbox order</h1>
+<div class="container">
+          <div class="item1">One</div>
+		  <div class="item2">Two</div>
+		  <div class="item3">Three</div>
+		  <div class="item4">Four</div>
+		  <div class="item5">Five</div>
+		  
+</div>
+</body>
+</html>
+		  

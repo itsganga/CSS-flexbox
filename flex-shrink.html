@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+<title>CSS Flex-Shrink</title>
+<style>
+body{
+     font-size: 16px;
+	 font-family: arial;
+}
+.container{
+            background: #eee;
+		    
+			margin: 50px auto 0;
+			padding: 10px;
+			border: 2px solid black;
+			display: flex;
+			
+}
+.item1{
+     background: orangered;
+	 width: 200px;
+	 /*flex-shrink: 4;*/
+	 shrink: 0 1 auto;
+	 
+	 
+}
+.item2{
+     background: lightpink;
+	 width: 200px;
+}
+.item3{
+     background: royalblue;
+	  width: 200px;
+}
+.item4{
+     background: goldenrod;
+	  width: 200px;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+<h1>CSS Flex-Shrink</h1>
+<div class="container">
+                        <div class="item1">One</div>
+		                <div class="item2">Two</div>
+		                <div class="item3">Three</div>
+		                <div class="item4">Four</div>
+</div>
+</body>
+</html>

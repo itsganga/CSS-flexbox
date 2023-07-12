@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+<title>CSS flexbox self align</title>
+<style>
+body{
+     font-size: 16px;
+	 font-family: arial;
+}
+.container{
+            background: #eee;
+			height: 300px;
+			margin: 50px auto 0;
+			padding: 10px;
+			border: 2px solid black;
+			display: flex;
+			align-items: flex-start;
+}
+
+.item1{
+     background: orangered;
+	 align-self: start;
+}
+.item2{
+     background: lightpink;
+	 align-self: center;
+}
+.item3{
+     background: royalblue;
+	 align-self: end;
+}
+.item4{
+     background: goldenrod;
+	  align-self: auto;
+}
+.item5{
+     background: mediumpurple;
+	  align-self: stretch;
+}
+.item{
+        color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		padding: 10px;
+}
+</style>
+</head>
+<body>
+<h1>CSS flexbox self align</h1>
+<div class="container">
+          <div class="item1">One</div>
+		  <div class="item2">Two</div>
+		  <div class="item3">Three</div>
+		  <div class="item4">Four</div>
+		  <div class="item5">Five</div>
+		  
+</div>
+</body>
+</html>
+		  
